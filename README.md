@@ -14,7 +14,12 @@ Nesta análise irei lidar com uma seguradora fictícia que pretende elaborar pro
   *  Selecionar os imóveis com área entre 60 e 100 metros quadrados, incluindo os limites.
   *  Selecionar os imóveis que tenham pelo menos 4 quartos e aluguel menor que R$ 2.000,00.
 5. Identificamos alguns problemas que precisam ser solucionados, sendo eles os missings ou _**Tratamento de Dados Faltantes**_.
-6. 
-7. 
+6. Foi solicitado pela empresa a _**Criação de Novas Variáveis**_ para o conjunto de dados.
+  * Variável que armazena o valor bruto do aluguel.
+  * Variável que armazena o valor com base no metrô quadrado de um imóvel.
+  * Variável de tipo que agregue casas e apartamentos.
+  * **Obs.:** Com base nas análises realizadas, expomos para a empresa que a variável 'Valor Bruto' possui valores pouco confiáveis, pois a variável IPTU nem sempre possui valores declarados. Sendo assim a empresa decidiu que 'Valor Bruto' e 'Valor Bruto m2' fossem excluídas do banco de dados.
+7. Com objetivo de continuar a verificação da base de dados a fim de encontrar problemas que possam prejudicar os resultados futuros, irei realizar análise de algumas estatísticas descritivas, sendo possível visualizar em _**Criando Agrupamentos**_.
+8. Após realizar a análise de algumas estatísticas descritivas, identificamos divergências nos dados e iremos removê-las, sendo possível visualizar em _**Identificando e Removendo Outliers**_.
 
 _Projeto realizado atráves da formação 'Python para Data Science', do curso 'Python Pandas: Tratando e analisando dados', da plataforma de aprendizagem 'Alura'._
